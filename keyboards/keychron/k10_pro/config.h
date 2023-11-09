@@ -35,6 +35,10 @@
 #define I2C1_TIMINGR_SCLH 15U
 #define I2C1_TIMINGR_SCLL 51U
 
+/* Vera options */
+#define MIDI_BASIC
+#define MIDI_ADVANCED
+
 #ifdef KC_BLUETOOTH_ENABLE
 /* Hardware configuration */
 #    define USB_BT_MODE_SELECT_PIN A10
